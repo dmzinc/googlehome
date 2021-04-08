@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+#main {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 70% 29%;
+  grid-gap: 5px;
+}
+
+.content {
+  margin-top: 65px;
+  margin-left: 350px;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.button {
+  background-color: #4885ed;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 7px 10px;
+  /* position: relative; */
+  bottom: 7px;
+  font-weight: bold;
+  margin-top: 1px;
+  margin-left: 10px;
+}
+.grid {
+  height: 23px;
+  position: relative;
+  bottom: 4px;
+
+  margin-bottom: -10px;
+}
+
+.gmail {
+  margin-right: 10px;
+}
+.images {
+  margin-right: 10px;
+}
+
+.bar {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 30px;
+  border: 1px solid #dcdcdc;
+  margin-top: 15px;
+}
+.bar:hover {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.bar:focus-within {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline: none;
+}
+.sidebar {
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.searchbar {
+  height: 45px;
+  border: none;
+  width: 500px;
+  font-size: 16px;
+  outline: none;
+}
+.voice {
+  height: 20px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+.googlesearch {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.lucky {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.lang {
+  margin-top: 35px;
+}
+.tog{
+  margin-top: 20px;
+}
+footer {
+  background: #f2f2f2;
+  margin-top: 190px;
+}
+.footer-top {
+  padding: 1em;
+  color: rgba(0, 0, 0, 0.54);
+}
+.carbon {
+  white-space: nowrap;
+  vertical-align: top;
+}
+
+.img {
+  height: 14px;
+  margin-right: -370px;
+  
+}
+.footer-bottom {
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #dadce0;
+  color: #70757a;
+}
+
+.left a {
+  margin-right: 1em;
+}
+
+.right a {
+  margin-right: 1em;
+}
